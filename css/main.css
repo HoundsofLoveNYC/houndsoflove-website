@@ -126,6 +126,13 @@ footer {
   margin: 0 5px;
 }
 
+.footer-photo {
+  display: block;
+  max-width: auto;
+  margin: 0 auto 30px;
+  border-radius: 5%;
+}
+
 /***********************
 PAGE: PORTFOLIO
 ************************/
