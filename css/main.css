@@ -10,6 +10,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 5%;
+  color: #737373;
 }
 
 a {
@@ -22,6 +23,7 @@ img {
 
 h3 {
   margin: 1.5em 0 0.1em 0;
+
 }
 
 
@@ -108,6 +110,13 @@ ul.listing {
 {
   color: #edebeb !important;
 }
+
+/***********************
+SECTION
+************************/
+
+
+
 /***********************
 FOOTER
 ************************/
