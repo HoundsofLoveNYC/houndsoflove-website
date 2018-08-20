@@ -297,18 +297,18 @@ body {
 
 /* green header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #ffe680;
+  border-color: #ffd11a;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #ffd11a;
 }
 
 /* logo text */
 h1 {
-  color: #fff;
+  color: #997a00;
 }
 
 h2 {
@@ -318,7 +318,7 @@ h2 {
 
 /* links */
 a {
-  color: #32673f;
+  color: #e6b800;
 }
 /* past: #6ab47b (grey) */
 
