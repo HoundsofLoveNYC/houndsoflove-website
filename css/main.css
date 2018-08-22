@@ -26,6 +26,10 @@ h3 {
 
 }
 
+#wrapper h3 {
+  border-bottom: 1px solid #ccc; 
+  width: fit-content;
+}
 
 /***********************
 HEADING
@@ -141,6 +145,7 @@ footer {
   margin: 0 auto 30px;
   border-radius: 5%;
 }
+
 
 /***********************
 PAGE: PORTFOLIO
