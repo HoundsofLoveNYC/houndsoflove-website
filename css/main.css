@@ -59,21 +59,12 @@ h1 {
   font-weight: 525;
 }
 
-h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.75em;
-  margin: -5px 0 0;
-  font-weight: 400;
-  color: #73e600;
-}
-
 .banner-photo {
   display: block;
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 5%;
 }
-
 
 /***********************
 NAVIGATION
@@ -84,46 +75,6 @@ nav {
   padding: 10px 0;
   margin: 20px 0 0;
 }
-
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav a {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  padding: 15px 10px;
-}
-
-ul.listing {
-    display: inline-block;
-}
-/* removed padding from top of nav bar on blog pag*/
-
-.secondary-nav {
-  font-size: 13.2px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-  letter-spacing: 2px;
-}
-/* !important overriddes everything else but a sub important */
-.secondary-nav a
-{
-  color: #edebeb !important;
-}
-
-/***********************
-SECTION
-************************/
-
-
 
 /***********************
 FOOTER
@@ -151,9 +102,6 @@ footer {
 }
 
 
-/***********************
-PAGE: PORTFOLIO
-************************/
 
 #gallery {
   margin: 0;
@@ -181,128 +129,6 @@ PAGE: PORTFOLIO
   color: #777;
 }
 
-
-
-/***********************
-PAGE: ABOUT
-************************/
-
-.profile-photo {
-  display: block;
-  max-width: 150px;
-  margin: 0 auto 30px;
-  border-radius: 5%;
-}
-
-
-/***********************
-PAGE: BLOG
-************************/
-
-.big-vertical-margin {
-    margin: 10px 0;
-}
-/* change the spacing between objects to be more than normal line spacing but less than a full empty line */
-
-.text-red {
-  color: red;
-}
-/* changes text to red, demo for how to combine classes */
-
-.rc-scout {
-  display: block;
-  padding: 0;
-  border: 0;
-  margin: 0;
-}
-.rc-scout__text {
-  display: block;
-  padding: 0;
-  border: 0;
-  margin: 0;
-  height: 100%;
-  font-size: 100%;
-}
-.rc-scout__link:link, .rc-scout__link:visited {
-  color: #61ae24;
-  text-decoration: underline;
-}
-.rc-scout__link:hover, .rc-scout__link: active {
-  color: #4e8b1d;
-}
-
-/* rc scout widget/ad styling stolen from Nick and not used so far */
-
-pre code {
-  background-color: #eee;
-  border: 1px solid #999;
-  display: block;
-  padding: 20px;
-}
-
-/***********************
-PAGE: CONTACT
-************************/
-
-.contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
-  overflow: hidden;
-  clear: both; 
-}
-
-.contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
-}
-
-.contact-info li.phone a {
-  background-image: url('../img/phone.png');
-}
-
-.contact-info li.mail a {
-  background-image: url('../img/mail.png');
-}
-
-.contact-info li.twitter a {
-  background-image: url('../img/twitter.png');
-}
-
-.contact-info li.linkedin a {
-  background-image: url('../img/linkedin.png');
-  background-size: 12px;
-  background-position: 1.5% 50%;
-}
-
-.learn-more {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
-  overflow: hidden;
-  clear: both; 
-}
-
-.learn-more a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
-}
-
-.learn-more li.resume a {
-  background-image: url('../img/resume.png');
-}
-
-
 /***********************
 COLORS
 ************************/
@@ -329,47 +155,11 @@ h1 {
   color: #997a00;
 }
 
-h2 {
-  color: #edebeb;
-  letter-spacing: 5px;
-}
-
 /* links */
 a {
   color: #e6b800;
 }
-/* past: #6ab47b (grey) */
-
 
 li a {
   color: #6c8e73
 }
-
-
-/* nav links */
-
-/* disable visited */
-/*
-nav a, nav a:visited {
-  color: #73e600;
-}
-*/
-
-nav a {
-  color: #32673f;
-}
-
-/* selected nav link */
-nav a.selected {
-  border-bottom: 2px solid ;
-  display: inline-block;
-  line-height: 0.2;
-  color: #32673f;
-}
-
-/* disable hover */
-/* 
-nav a:hover {
-  color: #32673f;
-}
-*/
