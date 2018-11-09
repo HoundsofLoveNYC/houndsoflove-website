@@ -130,6 +130,29 @@ footer {
 }
 
 /***********************
+Instagram Feed
+************************/
+
+@media screen and (max-width: 600px)
+#instagram {
+    margin-top: -6px;
+    margin-left: -5.5vw;
+    margin-right: -5.5vw;
+}
+
+#instagram img {
+    max-height: 103px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/***********************
 COLORS
 ************************/
 
