@@ -6,7 +6,7 @@ var feed = new Instafeed({
 		target: 'instagram',
 		template: '<img src="{{image}}" />',
 		// sortBy: 'most-liked',
-		limit: 25,
+		limit: 50,
 		resolution: 'standard_resolution',
 		after: function(data) {
 			
